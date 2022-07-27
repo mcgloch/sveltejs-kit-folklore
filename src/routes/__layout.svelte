@@ -4,13 +4,14 @@
 	import '../app.css';
 </script>
 
+<body class="bg-white dark:bg-slate-900">
 <Header />
-
 <main>
 	<slot />
 </main>
 
 <Footer />
+</body>
 
 
 <style>

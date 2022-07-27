@@ -1,26 +1,9 @@
-
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
--->
-<div class="relative py-16 bg-white overflow-hidden">
+<div class="relative py-16 bg-white dark:bg-slate-900 overflow-hidden">
   <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
     <div class="relative h-full text-lg max-w-prose mx-auto" aria-hidden="true">
       <svg class="absolute top-12 left-full transform translate-x-32" width="404" height="384" fill="none" viewBox="0 0 404 384">
@@ -53,11 +36,11 @@
     <div class="text-lg max-w-prose mx-auto">
       <h1>
         <span class="block text-base text-center text-indigo-600 font-semibold tracking-wide uppercase">Hello</span>
-        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Intrested in why this app was created?</span>
+        <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">Intrested in why this app was created?</span>
       </h1>
-      <p class="mt-8 text-xl text-gray-500 leading-8">First and foremost, thank you for taking the time to look over the app. It was created as a passion project by Leanne McLaughlin, an Irish web designer.</p>
+      <p class="mt-8 text-xl text-gray-500 dark:text-gray-400 leading-8">First and foremost, thank you for taking the time to look over the app. It was created as a passion project by Leanne McLaughlin, an Irish web designer.</p>
     </div>
-    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
+    <div class="mt-6 prose prose-indigo prose-lg text-gray-500 dark:text-gray-400 mx-auto">
       <p>Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.</p>
       <ul role="list">
         <li>Quis elit egestas venenatis mattis dignissim.</li>
@@ -71,8 +54,8 @@
         <p>Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
       </blockquote>
       <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
-      <figure>
-        <img class="w-full rounded-lg" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3" alt="" width="1310" height="873">
+      <figure class="py-6">
+        <img class="w-6/12 rounded-lg" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3" alt="" width="1310" height="873">
         <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
       </figure>
       <h2>Everything you need to get up and running</h2>
