@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'CaptainEdward-Bold.woff2';
+		font-weight: 500;
+		src: local('CaptainEdward-Bold.woff2'),
+			url(.static/fonts/CaptainEdward-Bold.woff2) format('woff2');
+	}
+	.display {
+		font-family: 'CaptainEdward-Bold.woff2';
+	}
+}
